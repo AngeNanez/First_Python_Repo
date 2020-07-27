@@ -1,0 +1,27 @@
+
+#shopping list exercise
+
+item_1 = 'apple'
+item_2 = 'banana'
+item_3 = 'milk'
+
+price_1 = 0.5
+price_2 = 0.2
+price_3 = 2.5
+
+print('Welcome to Angies\' store, today we have:\n')
+
+print(f'{item_1} = ${price_1}')
+print(f'{item_2} = ${price_2}')
+print(f'{item_3} = ${price_3}\n')
+
+print('-------------------------')
+
+qty_1 = int(input(f'How many {item_1} would you like? '))
+qty_2 = int(input(f'How many {item_2} would you like? '))
+qty_3 = int(input(f'How many {item_3} would you like? '))
+
+print('------------------------')
+print(f'Your total is = ${price_1 * qty_1 + price_2 * qty_2 + price_3 * qty_3} for \n {qty_1} {item_1} + {qty_2} {item_2} + {qty_3} {item_3}. \n ')
+print('Thank you for your purchase!')
+
