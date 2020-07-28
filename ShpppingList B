@@ -1,0 +1,22 @@
+print('Welcome to my shop!\n')
+
+item_name_1 = input('Name your first item: ') 
+item_name_2 = input('Name your second item: ') 
+item_name_3 = input('Name your third item: ') 
+
+print('---------------')
+
+item_price_1 = float(input('Price of your first item: '))
+item_price_2 = float(input('Price of your second item: '))
+item_price_3 = float(input('Price of your third item: '))
+
+print('---------------')
+
+item_quant_1 = round(int(input('Quantity of your first item: ')),2)
+item_quant_2 = round(int(input('Quantity of your second item: ')),2)
+item_quant_3 = round(int(input('Quantity of your third item: ')),2)
+
+print('---------------')
+
+print(f'You\'re taking: \n {item_quant_1} {item_name_1} for ${item_price_1 * item_quant_1} + \n {item_quant_2} {item_name_2} for ${item_price_2 * item_quant_2}+ \n {item_quant_3} {item_name_3} for ${item_price_3 * item_quant_3}.\n')
+print(f'You\'re total today is = ${item_quant_1 * item_price_1 + item_quant_2 * item_price_2 + item_quant_3 * item_price_3}')
