@@ -1,0 +1,12 @@
+from random import randint
+coin = randint(0,2)
+print(coin)
+
+if coin == 0:
+  print('Heads win!')
+elif coin == 1:
+  print('Tail loose...')
+else:
+  print('Did you really toss it?')
+
+print('------------------')
