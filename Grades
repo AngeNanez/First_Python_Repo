@@ -13,6 +13,7 @@ when grade = "lol skool sucks" # -> expect Error
 """
 
 grade = randint(0,100)
+#grade = int(input('What\'s your number? '))
 print (grade)
 
 A = 90
