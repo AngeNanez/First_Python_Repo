@@ -1,0 +1,31 @@
+"""
+Math Operations
+"""
+
+# A) Save a list with the numbers `2`, `4`, `6`, and `8` into a variable called `numbers`. Use this variable for all the problems in this PSET.
+
+numbers = [2,4,6,8]
+
+# B) Print the max of `numbers`.
+print(max(numbers))
+
+# C) Pop the last element in `numbers` off; re-insert it at index `2` and print the resultant list.
+
+numbers.pop()
+print(numbers)
+numbers.insert(2,8)
+print(numbers)
+
+# D) Pop the second number in `numbers` off.
+
+numbers.pop(1)
+print(numbers)
+
+# E) Append `3` to `numbers`.
+
+numbers.append(3)
+print(numbers)
+
+# F) Print out the average number.
+numbers_avg = sum(numbers) / len(numbers) 
+print(numbers_avg)
