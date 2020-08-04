@@ -16,3 +16,5 @@ print('-----------\n')
 
 reverse = sorted(playlist_titles, reverse = True)
 print(f'Reversed:\n {reverse}\n')
+
+print(sorted(playlist_titles, reverse=True))
