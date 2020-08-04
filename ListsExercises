@@ -1,0 +1,50 @@
+"""
+# A) Create a list including these five animals - elephant, tiger, otter, orangutan, and penguin.
+# B) Print the 4th animal on the list.
+# C) Add 'tortoise' to the beginning of the list.
+# D) Print the length of the list.
+# E) Remove 'orangutan' from the list.
+# F) Sort the list alphabetically and print it out.
+"""
+
+Animals = ['elephant', 'tiger', 'otter', 'orangutan', 'penguin']
+print(f'The 4th animal is the {Animals[3]}')
+Animals.insert(0, 'tortoise')
+print (f'Total number of animals = {len(Animals)}')
+Animals.pop(4)
+Animals.sort()
+print(Animals)
+
+print("=================")
+
+
+# A) Declare a list with 5 names, and print out the length of that list.
+
+names = ['Ana', 'John', 'Julia', 'Jamie', 'Bob']
+print('A.', len(names))
+
+# B) Print the 3rd name on the list
+
+print('B.', names[2])
+
+# C) Delete the first name on the list
+
+names.pop(0)
+print('C.', f'List without Ana {names}')
+
+# D) Re-add the name you deleted to the end of the list
+
+names.insert(5,'Ana')
+print('D.', f'Added back {names}')
+
+# E) Replace the 2nd name on the list with a new name.
+
+names[1] = 'Sofia'
+print('E.', names)
+
+# F) Add 3 new names to the end of the list.
+more_names = ['Julia','Dora','Mark']
+
+names.extend(more_names)
+print('F.', f'Final list {names}')
+print(len(names))
